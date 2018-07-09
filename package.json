@@ -1,0 +1,27 @@
+{
+  "name": "turntable",
+  "version": "1.0.0",
+  "description": "reactnative\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D-\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C的转盘示例\u001b[D\u001b[",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-handy/react-native-turntable-lucky_draw.git"
+  },
+  "keywords": [
+    "转盘抽奖"
+  ],
+  "author": "hong_handy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h-handy/react-native-turntable-lucky_draw/issues"
+  },
+  "homepage": "https://github.com/h-handy/react-native-turntable-lucky_draw#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-native": "^0.56.0"
+  }
+}
