@@ -33,6 +33,10 @@ export default class AnimatedTurnTableDrawPage extends React.Component {
         if((number/8)==0.875){
             number=1;
         }
+        // 在获取到随机数的基础上加3.0625圈。整数部分可以自定义设定。
+        // 3.0625 = 3 + 0.625，意思就是在转满3圈 + 0.0625 圈，动画则逐渐停止。
+        // 所谓的0.0625，是将每个大的格子又一份为二，这样一圈总共是16（8*2）个小的格子，每个小的格子则为0.0625（1/16）。
+        // 目的是为了将中心点的指针指向大格子的中间位置。
         let oneTimeRotate = number / 8 + 3.0625;
         Animated.timing(this.state.rotateDeg, {
             toValue: oneTimeRotate,
